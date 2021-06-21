@@ -15,7 +15,7 @@ from rest_framework.views import APIView
 # code below import Or condition
 from django.db.models import Q
 import math
-from django_filter.rest_framework import DjangoFilterBackend
+from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import viewsets
 
 # @api_view(['GET','POST'])
